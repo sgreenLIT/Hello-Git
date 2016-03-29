@@ -13,5 +13,10 @@ namespace Mar28Git.Controllers
             Response.Write("Hello from Index Page.");
         }
 
+        public void MyPage()
+        {
+            Response.Write("Hello from My Page.");
+        }
+
     }
 }
