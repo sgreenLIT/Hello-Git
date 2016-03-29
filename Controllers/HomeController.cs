@@ -18,5 +18,10 @@ namespace Mar28Git.Controllers
             Response.Write("Hello from Master Page.");
         }
 
+        public void MyPage()
+        {
+            Response.Write("Hello from My Page.");
+        }
+
     }
 }
